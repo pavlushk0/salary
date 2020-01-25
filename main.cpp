@@ -26,6 +26,10 @@ vector<string> split_str(const std::string &string, char sep) {
     return list;
 }
 
+void usage() {
+    cout << "Running with no options entails invoke usage() function" << endl;
+}
+
 int main(int argc, char **argv) {
     string str;
     vector<std::string> str_vec;
